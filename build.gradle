@@ -6,6 +6,7 @@ plugins {
 group = 'ru.maxcong'
 version = '1.0-SNAPSHOT'
 
+
 allure {
     report {
         version.set("2.19.0")
@@ -26,9 +27,10 @@ repositories {
 
 dependencies {
     testImplementation(
-            "org.junit.jupiter:junit-jupiter:5.11.1",
-            "com.codeborne:selenide:7.5.1",
-            "io.qameta.allure:allure-selenide:2.29.0"
+            'org.junit.jupiter:junit-jupiter:5.11.1',
+            'com.codeborne:selenide:7.5.1',
+            'io.qameta.allure:allure-selenide:2.19.0',
+            'org.slf4j:slf4j-simple:2.0.16'
     )
     testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.11.1')
 }
