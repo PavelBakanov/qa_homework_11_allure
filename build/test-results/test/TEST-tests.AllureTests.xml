@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.AllureTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-10-08T16:00:08" hostname="DESKTOP-TTM8PH6" time="7.874">
-  <properties/>
-  <testcase name="allureSelenideWithLambdaTest()" classname="tests.AllureTests" time="3.605"/>
-  <testcase name="allureSelenideWithAnnotationStepTest()" classname="tests.AllureTests" time="2.021"/>
-  <testcase name="allureSelenideTest()" classname="tests.AllureTests" time="2.14"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
