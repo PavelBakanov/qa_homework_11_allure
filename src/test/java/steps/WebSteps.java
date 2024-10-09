@@ -14,7 +14,7 @@ public class WebSteps {
     }
 
     @Step("Проверяем название Issue")
-    public void CheckNameOfIssue() {
+    public void checkNameOfIssue() {
         $("#repo-content-pjax-container").shouldHave(text("Issue for Autotest"));
     }
 }

@@ -61,7 +61,7 @@ public class AllureTests extends TestBase {
         SelenideLogger.addListener("allure", new AllureSelenide());
         {
             steps.openPage();
-            steps.CheckNameOfIssue();
+            steps.checkNameOfIssue();
         }
 
 
